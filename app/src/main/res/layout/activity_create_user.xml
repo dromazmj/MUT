@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="benmatt.myuniversitytutor.CreateUser">
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:editable="false"
+        android:text="First Name:"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="43dp"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/firstNameBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="33dp"
+        android:layout_alignBaseline="@+id/firstName"
+        android:layout_alignBottom="@+id/firstName"
+        android:layout_toRightOf="@+id/firstName"
+        android:layout_toEndOf="@+id/firstName" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="446dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp" />
+
+    <TextView
+        android:id="@+id/lastNameText"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/firstName"
+        android:layout_marginTop="48dp"
+        android:text="Last Name:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/lastNameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lastNameText"
+        android:layout_marginBottom="7dp"
+        android:layout_toEndOf="@+id/lastNameText"
+        android:layout_toRightOf="@+id/lastNameText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lastNameText"
+        android:layout_marginTop="39dp"
+        android:text="Username:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/usernameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/usernameText"
+        android:layout_marginBottom="9dp"
+        android:layout_toEndOf="@+id/usernameText"
+        android:layout_toRightOf="@+id/usernameText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/usernameText"
+        android:layout_marginTop="36dp"
+        android:text="Password:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/passwordText"
+        android:layout_marginBottom="11dp"
+        android:layout_toEndOf="@+id/passwordText"
+        android:layout_toRightOf="@+id/passwordText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <RadioButton
+        android:id="@+id/tutorRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordText"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/nextButton"
+        android:layout_toStartOf="@+id/nextButton"
+        android:text="Want to be a tutor?" />
+</RelativeLayout>

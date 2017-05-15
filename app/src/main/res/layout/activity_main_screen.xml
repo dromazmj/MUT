@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="benmatt.myuniversitytutor.MainScreen">
+
+    <EditText
+        android:id="@+id/universityField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="University"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/areaOfStudyField"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717"
+        tools:layout_editor_absoluteX="72dp"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/areaOfStudyField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Area Of Study"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="234dp"
+        android:layout_marginTop="145dp"
+        android:layout_alignTop="@+id/universityField"
+        android:layout_alignLeft="@+id/courseField"
+        android:layout_alignStart="@+id/courseField" />
+
+    <EditText
+        android:id="@+id/courseField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Course"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="331dp"
+        android:layout_marginTop="90dp"
+        android:layout_below="@+id/areaOfStudyField"
+        android:layout_alignLeft="@+id/universityField"
+        android:layout_alignStart="@+id/universityField" />
+
+    <Button
+        android:id="@+id/findTutorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Tutor"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="409dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp" />
+
+</RelativeLayout>

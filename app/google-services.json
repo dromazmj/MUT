@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "922579354717",
+    "firebase_url": "https://myuniversitytutor-52c69.firebaseio.com",
+    "project_id": "myuniversitytutor-52c69",
+    "storage_bucket": "myuniversitytutor-52c69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922579354717:android:559d3f2d296c96a1",
+        "android_client_info": {
+          "package_name": "benmatt.myuniversitytutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922579354717-doqtqdu18rdqn5dtslj7j39vlmtssvm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgmIg5E9jswmeLcqz6RPF8-sQPXfFRmgw"
+        },
+        {
+          "current_key": "AIzaSyCLbCLy0D-Fb2dkTroy-dYcuLkjunZzSmU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
